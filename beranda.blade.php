@@ -71,3 +71,4 @@ Update yang ke-70
 Update yang ke-71
 Update yang ke-72
 Update yang ke-73
+Update yang ke-74
