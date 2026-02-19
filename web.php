@@ -339,3 +339,4 @@ Update yang ke-38
 Update yang ke-39
 Update yang ke-40
 Update yang ke-1
+Update yang ke-2
