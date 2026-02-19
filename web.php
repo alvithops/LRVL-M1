@@ -215,3 +215,4 @@ Update yang ke-14
 Update yang ke-15
 Update yang ke-16
 Update yang ke-17
+Update yang ke-18
