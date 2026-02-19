@@ -17,6 +17,6 @@ Route::get('/halo/{nama?}', function ($nama = "Tidak Diketahui") {
 });
 
 // Route Biodata
-Route::get('/halo/{nama}', function ($nama) {
+Route::get('/hai/{nama}', function ($nama) {
     return 'Halo, <br> ' . $nama;
 });
