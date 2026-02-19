@@ -12,6 +12,11 @@ Route::get('/profile', function () {
 });
 
 //Route Dengan Paarameter
-Route::get('/halo/{nama}', function ($nama = "Tidak Diketahui") {
-    return "halo, nama : ". $nama;
+Route::get('/halo/{nama?}', function ($nama = "Tidak Diketahui") {
+    return "Halo, nama : " . $nama;
+});
+
+// Route Biodata
+Route::get('/halo/{nama}', function ($nama) {
+    return 'Halo, <br> ' . $nama;
 });
