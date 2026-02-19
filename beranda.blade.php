@@ -69,3 +69,4 @@ Update yang ke-68
 Update yang ke-69
 Update yang ke-70
 Update yang ke-71
+Update yang ke-72
