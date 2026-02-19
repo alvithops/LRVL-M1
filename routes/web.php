@@ -31,3 +31,8 @@ Route::get('/nilai/{nama}/{nilai}', function ($nama, $nilai) {
 Route::get('/tampil-nilai/{nama}/{nim}/{prodi}/{nilai}', function ($nama, $nim, $prodi, $nilai) {
     return view('nilai', compact('nama', 'nim', 'prodi', 'nilai'));
 });
+
+use app\Http\Controllers\HaloController;
+
+Route::get('/halo', [HaloController::class, 'index']);
+Route::get('/halo/{nama}', [HaloController::class, 'sapa']);
