@@ -13,5 +13,5 @@ Route::get('/profile', function () {
 
 //Route Dengan Paarameter
 Route::get('/halo/{nama}', function ($nama) {
-    return 'halo, '. $namakuadala;
+    return 'halo, '. $namakuadal;
 });
