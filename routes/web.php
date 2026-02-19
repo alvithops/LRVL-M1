@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HaloController;
+
 Route::get('/', function () {
     return view('beranda');
 });
@@ -10,12 +12,6 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return 'ini adalah halaman profil.';
 });
-
-//Route Dengan Paarameter
-Route::get('/halo/{nama?}', function ($nama = "Tidak Diketahui") {
-    return "Halo, nama : " . $nama;
-});
-
 
 // Route Biodata (Menggunaakn HTML <br> agar pindah baris)
 Route::get('biodata', function () {
@@ -31,8 +27,6 @@ Route::get('/nilai/{nama}/{nilai}', function ($nama, $nilai) {
 Route::get('/tampil-nilai/{nama}/{nim}/{prodi}/{nilai}', function ($nama, $nim, $prodi, $nilai) {
     return view('nilai', compact('nama', 'nim', 'prodi', 'nilai'));
 });
-
-use app\Http\Controllers\HaloController;
 
 Route::get('/halo', [HaloController::class, 'index']);
 Route::get('/halo/{nama}', [HaloController::class, 'sapa']);
