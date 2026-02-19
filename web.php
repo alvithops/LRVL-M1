@@ -231,3 +231,4 @@ Update yang ke-30
 Update yang ke-31
 Update yang ke-32
 Update yang ke-33
+Update yang ke-34
