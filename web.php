@@ -237,3 +237,4 @@ Update yang ke-36
 Update yang ke-37
 Update yang ke-38
 Update yang ke-39
+Update yang ke-40
