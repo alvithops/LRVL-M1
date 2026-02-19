@@ -1,3 +1,3 @@
 {{-- resources/view/beranda.blade.php --}}
-<h2>Seamat Datang di Halaman Beranda Payung</h2>
+<h1>Selamat Datang di Halaman Beranda Payung</h1>
 <p>Ini Adalah Tampilan Blade Pertama Payung</p>
