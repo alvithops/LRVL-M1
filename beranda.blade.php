@@ -67,3 +67,4 @@ Update yang ke-66
 Update yang ke-67
 Update yang ke-68
 Update yang ke-69
+Update yang ke-70
