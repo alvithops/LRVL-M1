@@ -26,3 +26,8 @@ Route::get('biodata', function () {
 Route::get('/nilai/{nama}/{nilai}', function ($nama, $nilai) {
     return 'Halo, ' . ($nama) . ', mendapatkan nilai' . $nilai;
 });
+
+// Route Nilai data
+Route::get('/tampil-nilai/{nama}/{nim}/{prodi}/{nilai}', function ($nama, $nim, $prodi, $nilai) {
+    return view('nilai', compact('nama', 'nim', 'prodi', 'nilai'));
+});
