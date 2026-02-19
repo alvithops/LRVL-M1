@@ -24,5 +24,5 @@ Route::get('biodata', function () {
 
 // Route Dengan Dua Parameter (nama dan nilai)
 Route::get('/nilai/{nama}/{nilai}', function ($nama, $nilai) {
-    return 'Halo, ' . [$nama] . ', mendapatkan nilai' . $nilai;
+    return 'Halo, ' . ($nama) . ', mendapatkan nilai' . $nilai;
 });
