@@ -12,6 +12,6 @@ class HaloController extends Controller
     }
     public function sapa($nama = "Pengunjung")
     {
-        return "Selamat Datang, " . $nama;
+        return "Selamat Datang, ". $nama;
     }
 }
